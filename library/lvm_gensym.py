@@ -17,6 +17,7 @@ module: lvm_gensym
 short_description: Generate default names for lvm variables
 version_added: "2.4"
 description:
+    - WARNING: Do not use this module directly! It is only for role internal use.
     - "Module accepts two input strings consisting of a file system type and
        a mount point path, and outputs names based on system information"
 options:

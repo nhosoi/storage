@@ -16,6 +16,7 @@ module: resolve_blockdev
 short_description: Resolve block device specification to device node path.
 version_added: "2.5"
 description:
+    - WARNING: Do not use this module directly! It is only for role internal use.
     - "This module accepts various forms of block device identifiers and
        resolves them to the correct block device node path."
 options:

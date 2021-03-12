@@ -19,6 +19,7 @@ short_description: Module for basic manipulation with byte sizes
 version_added: "2.5"
 
 description:
+    - WARNING: Do not use this module directly! It is only for role internal use.
     - "Module accepts byte size strings with the units and produces strings in
       form of input accepted by different storage tools"
 

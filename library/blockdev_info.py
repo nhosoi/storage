@@ -16,6 +16,7 @@ module: blockdev_info
 short_description: Collect info about block devices in the system.
 version_added: "2.5"
 description:
+    - WARNING: Do not use this module directly! It is only for role internal use.
     - "This module collects information about block devices"
 options: {}
 author:

@@ -19,6 +19,7 @@ short_description: Module for management of linux block device stacks
 version_added: "2.5"
 
 description:
+    - WARNING: Do not use this module directly! It is only for role internal use.
     - "Module configures storage pools and volumes to match the state specified
        in input parameters. It does not do any management of /etc/fstab entries."
 

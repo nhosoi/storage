@@ -9,6 +9,7 @@ DOCUMENTATION = """
 module: find_unused_disk
 short_description: Gets unused disks
 description:
+    - WARNING: Do not use this module directly! It is only for role internal use.
     - Disks are considered in ascending alphanumeric sorted order.
     - Disks that meet all conditions are considered 'empty' and returned (using kernel device name) in a list.
         - 1. No known signatures exist on the disk, with the exception of partition tables.
